@@ -2,7 +2,7 @@
 更新时间 2022-05-20
 -----------------------------------------
 
-
+## 小火箭共享ID密码每天更新  [点击安装](itms-services://?action=download-manifest&url=https://www.installonair.com/storage/ipaz/Gufmyw/Gufmyw.plist "悬停显示")_
 -----------------------------------------
 
 ### 从2022年5月13日开始，Netflix账号不再免费共享
