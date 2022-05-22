@@ -1,6 +1,4 @@
-<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> &
-  <![endif]-->
-  <style>
+ <style>
 	{margin:1.00in 0.75in 1.00in 0.75in;
 	mso-header-margin:0.50in;
 	mso-footer-margin:0.50in;}
@@ -101,3 +99,27 @@
 
 </body>
 </html>
+
+
+// 屏幕自适应
+
+function resizeFun(){
+
+        var w = $(window).width();
+        var h = $(window).height();
+        var pw = w / 1920; // 根据页面设计，动态修改宽高
+        var ph = h / 1080;
+        $("body").css("transform", "scale(" + pw + "," + ph + ")");  // 设置等比例缩放
+
+}
+
+// 监听屏幕缩放，自适应
+$(window).resize(function () { 
+       resizeFun();
+});
+
+//  初始化调用
+
+$(function () { 
+    resizeFun();
+})
