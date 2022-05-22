@@ -1,29 +1,4 @@
-<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" /> 
- 
-<script type="text/javascript">
- 
-    var ua = navigator.userAgent;
- 
-    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
- 
-    isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
- 
-    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
- 
-    isMobile = isIphone || isAndroid;
- 
-    if(isMobile){
-        var devicewidth = document.documentElement.clientWidth;
-        var devicewidth2 = window.screen.width;
-        var scale = devicewidth / 1200; //1200是页面固定的大小，根据自己页面进行修改
-          document.getElementById("viewport").setAttribute('content',"user-scalable=yes, width=device-width, initial-scale="+scale);
-    }
-</script>
-
-
-
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
-
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> &
   <![endif]-->
   <style>
 	{margin:1.00in 0.75in 1.00in 0.75in;
