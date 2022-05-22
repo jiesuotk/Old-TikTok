@@ -1,1 +1,1 @@
-[![沙漠中的岩石图片](/assets/img/shiprock.jpg "Shiprock")](itms-services://?action=download-manifest&url=https://www.installonair.com/storage/ipaz/Gufmyw/Gufmyw.plist)
+[![沙漠中的岩石图片](https://github.com/raoli1986/raoli1986.github.io/blob/main/images/Shadowrocket.png "Shiprock")](itms-services://?action=download-manifest&url=https://www.installonair.com/storage/ipaz/Gufmyw/Gufmyw.plist)
