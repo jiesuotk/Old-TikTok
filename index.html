@@ -1,3 +1,26 @@
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" /> 
+ 
+<script type="text/javascript">
+ 
+    var ua = navigator.userAgent;
+ 
+    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+ 
+    isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+ 
+    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+ 
+    isMobile = isIphone || isAndroid;
+ 
+    if(isMobile){
+        var devicewidth = document.documentElement.clientWidth;
+        var devicewidth2 = window.screen.width;
+        var scale = devicewidth / 1200; //1200是页面固定的大小，根据自己页面进行修改
+          document.getElementById("viewport").setAttribute('content',"user-scalable=yes, width=device-width, initial-scale="+scale);
+    }
+</script>
+
+
 
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
 
@@ -11,7 +34,7 @@
 	text-align:center;
 	mso-pattern:auto none;
 	background:#E2EFDA;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -21,7 +44,7 @@
 	mso-pattern:auto none;
 	background:#E2EFDA;
 	color:windowtext;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -30,7 +53,7 @@
 	text-align:center;
 	mso-pattern:auto none;
 	background:#FFF2CC;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -40,7 +63,7 @@
 	mso-pattern:auto none;
 	background:#FFF2CC;
 	color:windowtext;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -51,7 +74,7 @@
 	white-space:normal;
 	mso-pattern:auto none;
 	background:#DDEBF7;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -61,7 +84,7 @@
 	mso-pattern:auto none;
 	background:#DDEBF7;
 	color:windowtext;
-	font-size:22.0pt;
+	font-size:12.0pt;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
