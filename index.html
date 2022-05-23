@@ -101,25 +101,6 @@
 </html>
 
 
-// 屏幕自适应
+var t = window.devicePixelRatio   // 获取下载的缩放 125% -> 1.25    150% -> 1.5
+document.body.style.zoom =1/ t;   // 就去修改页面的缩放比例
 
-function resizeFun(){
-
-        var w = $(window).width();
-        var h = $(window).height();
-        var pw = w / 1920; // 根据页面设计，动态修改宽高
-        var ph = h / 1080;
-        $("body").css("transform", "scale(" + pw + "," + ph + ")");  // 设置等比例缩放
-
-}
-
-// 监听屏幕缩放，自适应
-$(window).resize(function () { 
-       resizeFun();
-});
-
-//  初始化调用
-
-$(function () { 
-    resizeFun();
-})
